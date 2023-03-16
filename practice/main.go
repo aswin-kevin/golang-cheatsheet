@@ -5,7 +5,8 @@ import (
 	// "snippets/addition"
 	// checktype "snippets/if_else"
 	// file_check "snippets/file_exists"
-	"snippets/dns_rec"
+	// "snippets/dns_rec"
+	get_html "snippets/url_scrape"
 )
 
 func main(){
@@ -15,5 +16,6 @@ func main(){
 	// animal := checktype.CheckAnimal("maa")
 	// fmt.Println(animal)
 	// file_check.CheckFile()
-	dns_rec.DNSrec()
+	// dns_rec.DNSrec()
+	get_html.Get_html()
 }
